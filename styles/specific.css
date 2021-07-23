@@ -3,17 +3,80 @@ to keep
 *************/
 .container {
   min-height: 100vh;
-  padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
+
+.header {
+  width: 100%;
+  padding: 0 2rem;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  padding-top: 10rem;
+  justify-content: center;
+}
+
+
+.container.light {
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+.container.dark {
+  background-color: #161616;
+  color: #346751;
+  border-color: #346751;
+  font-weight: 700;
+}
+
+form {
+  display: flex;
+}
+
+button {
+  height: 100%;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+button.light {
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+}
+
+button.dark {
+  background-color: #161616;
+  color: #346751;
+  border: solid 2px #346751;
+  font-weight: 700;
+}
+
+input {
+  height: 48px;
+  margin-right: 16px;
+  padding-left: 8px;
+}
+
+.board {
+  width: 300px;
+}
+
 
 /*************
 dont know
 *************/
+
+/*
 .main {
   padding: 5rem 0;
   flex: 1;
@@ -124,4 +187,4 @@ dont know
     width: 100%;
     flex-direction: column;
   }
-}
+} */
