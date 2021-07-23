@@ -1,6 +1,6 @@
 # install the project
 
-git clone truc\
+git clone https://github.com/Julienlecloset/formation-hooks.git\
 cd formation-hooks\
 npm install\
 npm run dev
