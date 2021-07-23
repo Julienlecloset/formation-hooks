@@ -9,7 +9,8 @@ const Header = ({ setTheme }) => {
     <div className={`header ${theme}`}>
       <div />
       <p>The Game in Which One Should Click to Win</p>
-      <Button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>Switch theme</Button>
+      <div />
+      {/* <Button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>Switch theme</Button> */}
     </div>
   )
 }

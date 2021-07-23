@@ -1,8 +1,8 @@
 import Score from "./Score";
 import Button from "../Button";
 
-const Playing = ({ clicksToWin, winner, humanName, humanClicked, humanClicks, cpuClicks, restartGame }) => {
-//console.log("rendering Playing");
+const Board = ({ clicksToWin, winner, humanName, humanClicked, humanClicks, cpuClicks, restartGame }) => {
+// console.log("rendering Board");
 
   return (
     <div className="board">
@@ -20,4 +20,4 @@ const Playing = ({ clicksToWin, winner, humanName, humanClicked, humanClicks, cp
   )
 }
 
-export default Playing;
+export default Board;

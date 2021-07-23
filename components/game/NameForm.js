@@ -1,7 +1,7 @@
 import Button from "../Button";
 
-const StartForm = ({ humanName, setHumanName, setStarted }) => {
-  // console.log("rendering StartForm");
+const NameForm = ({ humanName, setHumanName, setStarted }) => {
+  // console.log("rendering NameForm");
 
   return (
     <div>
@@ -18,4 +18,4 @@ const StartForm = ({ humanName, setHumanName, setStarted }) => {
   )
 }
 
-export default StartForm;
+export default NameForm;

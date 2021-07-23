@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import StartForm from "./StartForm";
-import Playing from "./Playing";
+import NameForm from "./NameForm";
+import Board from "./Board";
 
 const Game = () => {
   // console.log("rendering Game component");
@@ -48,7 +48,7 @@ const Game = () => {
   }
 
   if (started) {
-    return <Playing
+    return <Board
               clicksToWin={clicksToWin}
               winner={winner}
               humanName={humanName}
@@ -58,8 +58,9 @@ const Game = () => {
               restartGame={restartGame}
             />;
   } else {
-    return <StartForm humanName={humanName} setHumanName={setHumanName} setStarted={setStarted} />    
+    return <NameForm humanName={humanName} setHumanName={setHumanName} setStarted={setStarted} />    
   }
+  // return <NameForm />
 };
 
 export default Game;
